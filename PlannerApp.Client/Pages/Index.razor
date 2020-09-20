@@ -1,0 +1,11 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+<RadzenButton Text="@Text"></RadzenButton>
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code{
+    public string Text { get; set; } = "Hey! Welcome";
+}
